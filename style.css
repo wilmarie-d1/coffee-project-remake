@@ -24,7 +24,6 @@ td, th {
     margin-left: auto;
     margin-bottom: 50px;
     border: saddlebrown 3px;
-    border-radius: 10px;
     background-color: indianred;
 ;
 
@@ -51,7 +50,6 @@ td, th {
 }
 
 .forms2 {
-    border-radius: 10px;
     background-color: #FFDCBA ;
     background-color: rgba(0,0,0,.5);
     color: #FFDCBA;
