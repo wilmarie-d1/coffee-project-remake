@@ -7,3 +7,57 @@ td, th {
     border: 1px solid black;
     padding: 5px 10px;
 }
+
+
+#coffees{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.coffee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-bottom: 50px;
+    border: saddlebrown 3px;
+    border-radius: 10px;
+    background-color: indianred;
+;
+
+}
+#coffeeRoast{
+    display: flex;
+    align-content: flex-end;
+}
+#roast-selection {
+    background-color: cornsilk;
+}
+#coffee-name {
+    background-color: cornsilk;
+}
+#newRoast-selection {
+    background-color: cornsilk;
+}
+#newCoffee-name {
+    background-color: cornsilk;
+
+}
+.container {
+    color: brown ;
+}
+
+.forms2 {
+    border-radius: 10px;
+    background-color: #FFDCBA ;
+    background-color: rgba(0,0,0,.5);
+    color: #FFDCBA;
+
+
+}
+.form1{
+    padding: 0.5em 0;
+}
