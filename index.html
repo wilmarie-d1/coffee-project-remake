@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--Navbar-->
@@ -38,117 +38,79 @@
 <!--Navbar end-->
 
    <!--video intro-->
+<div class="header">
 <video width="100%" height="600px" autoplay muted loop style="position: absolute; top: 0; left: 0; z-index: -1;">
 <source src="images/espresso-134.mp4" type="video/mp4">
     </video>
 <!--video end-->
-<div class="space" style="width: 100%; height: 200px"></div>
-<div class="typewriter">
-    <h1>Brewed with Care</h1>
+    <div class="space" style="width: 100%; height: 400px"></div>
+
+    <div class="typewriter">
+    <h1><i>Brewed with Care</i></h1>
 </div>
 <br>
-<br>
-<br>
-<br>
-<p class="line-1 anim-typewriter"><i>Served with Love</i></p>
 
-<div class="overlay">
-    <h2>A Taste of <em>Heaven</em> in <i>Every</i> Cup</h2>
+<br>
+<br>
+<p class="line-1 anim-typewriter"><i>Served with Love️</i></p>
+<div class="space" style="width: 100%; height: 100px"></div>
+<br>
 </div>
-<section>
+<div class="space" style="width: 100%; height: 100px"></div>
 
-    <div class="container">
-        <div class="row">
-
-            <div id="table" class="col-lg-6">
-
-                <div class="coffee-table">
-                    <table>
-                        <thead>
-                        <tr>
-                            <!-- Commented it out bc this shows columns ID/NAME/ROAST-->
-                            <!--        <th>ID</th>-->
-                            <!--        <th>NAME</th>-->
-                            <!--        <th>ROAST</th>-->
-                        </tr>
-                        </thead>
-                        <tbody id="coffees"></tbody>
-                    </table>
-                </div>
-            </div>
-
-
-            <div class="forms2 col-lg-6" style="height: 80vh">
-
-                <form class="form1">
-                    <div class="form1">
-                        <label for="roast-selection">
-                            <h3>
-                                <strong>Roast</strong>
-                            </h3>
-                        </label>
-                        <br>
-                        <select id="roast-selection" class="form-select" aria-label="Default select example"
-                                style="width: 100%">
-                            <option value="all">All</option>
-                            <option value="light">Light</option>
-                            <option value="medium">Medium</option>
-                            <option value="dark">Dark</option>
-
-                        </select>
-                        <br>
-                        <!--        Search Bar     -->
-                        <label for="coffee-name" class="form-label">
-                            <h3>
-                                <strong>Coffee Name</strong>
-                            </h3>
-                        </label>
-                        <br>
-                        <input class="form-control" id="coffee-name" placeholder="Type to search..."
-                               style="width: 100%">
-                        <br>
-                        <button id="submit" type="button" class="btn btn-warning" style="width: 100%">Submit</button>
-
-                    </div>
-                </form>
-
-
-                <hr>
-
-                <h2>Add A Coffee</h2>
-                <form class="form2">
-                    <div class="form2">
-                        <label for="newRoast-selection">
-                            <h3><strong>Roast</strong>
-                            </h3>
-                        </label>
-                        <br>
-                        <select id="newRoast-selection" class="form-select" aria-label="Default select example"
-                                style="width: 100%">
-                            <option value="light">Light</option>
-                            <option value="medium">Medium</option>
-                            <option value="dark">Dark</option>
-
-                        </select>
-                        <br>
-                        <!--        Search Bar     -->
-                        <label for="newCoffee-name" class="form-label">
-                            <h3>
-                                <strong>Coffee Name</strong>
-                            </h3>
-                        </label>
-                        <br>
-                        <input class="form-control" id="newCoffee-name" placeholder="Type to search..."
-                               style="width: 100%">
-                        <br>
-                        <button id="newSubmit" type="button" class="btn btn-warning" style="width: 100%">Submit</button>
-                    </div>
-                </form>
-            </div>
-
+<!--images-->
+<div class="container">
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.squarespace-cdn.com/content/v1/5a8a7a566f4ca301c2d15ef7/1652634522757-4R6RGY1IEGCQPBVL3NUD/5E5DCD71-E5A4-4082-9157-BC087C4E1C30.jpeg?format=2500w">
         </div>
+        <div class="content">
+            <div>
+                <h2>Breakfast</h2>
+                <p>Welcome to our breakfast haven! Indulge in our delectable breakfast dishes and artisanal coffee blends that will kickstart your day. Join us and savor the perfect morning experience.
+                </p>
+            </div>
         </div>
-</section>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://curlytales.com/wp-content/uploads/2021/01/Coffeefeature-1170x780.jpg">
+        </div>
+        <div class="content">
+            <div>
+                <h2>Coffee</h2>
+                <p> Explore our coffee wonderland! From smooth and mellow to bold and intense, we have a coffee blend for every taste preference. Indulge in our premium coffee selection and elevate your coffee experience to a whole new level.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://4.bp.blogspot.com/-OOFbbJESgTQ/XKbQkr2xiSI/AAAAAAAFyY0/_KGpK7ex6r4TdpkzzbHU52-8pFOVfsdEQCLcBGAs/s1600/190301_Intelligenstia_CoreLU_KET.jpg">
+        </div>
+        <div class="content">
+            <div>
+                <h2>Custom Coffee</h2>
+                <p>Create your own coffee adventure! At our coffee shop, we offer custom coffee blends that you can mix and match to suit your taste buds. Craft your perfect cup of coffee and enjoy a personalized coffee experience like no other.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://as1.ftcdn.net/v2/jpg/02/60/00/22/1000_F_260002250_PBPTtd5jCRCNPripM5TiOBqmWp47Qs8g.jpg">
+        </div>
+        <div class="content">
+            <div>
+                <h2>Good Times </h2>
+                <p>Catch up with your friends over a cup of our artisanal coffee blends and delicious treats. Our coffee shop is the perfect place to relax, unwind, and enjoy the company of good friends.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="space" style="width: 100%; height: 100px"></div>
+
     <script src="main.js"></script>
 </body>
 </html>

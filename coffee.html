@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section>
+
+    <div class="container">
+        <div class="row">
+
+            <div id="table" class="col-lg-6">
+
+                <div class="coffee-table">
+                    <table>
+                        <thead>
+                        <tr>
+                            <!-- Commented it out bc this shows columns ID/NAME/ROAST-->
+                            <!--        <th>ID</th>-->
+                            <!--        <th>NAME</th>-->
+                            <!--        <th>ROAST</th>-->
+                        </tr>
+                        </thead>
+                        <tbody id="coffees"></tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="forms2 col-lg-6" style="height: 80vh">
+
+                <form class="form1">
+                    <div class="form1">
+                        <label for="roast-selection">
+                            <h3>
+                                <strong>Roast</strong>
+                            </h3>
+                        </label>
+                        <br>
+                        <select id="roast-selection" class="form-select" aria-label="Default select example"
+                                style="width: 100%">
+                            <option value="all">All</option>
+                            <option value="light">Light</option>
+                            <option value="medium">Medium</option>
+                            <option value="dark">Dark</option>
+
+                        </select>
+                        <br>
+                        <!--        Search Bar     -->
+                        <label for="coffee-name" class="form-label">
+                            <h3>
+                                <strong>Coffee Name</strong>
+                            </h3>
+                        </label>
+                        <br>
+                        <input class="form-control" id="coffee-name" placeholder="Type to search..."
+                               style="width: 100%">
+                        <br>
+                        <button id="submit" type="button" class="btn btn-warning" style="width: 100%">Submit</button>
+
+                    </div>
+                </form>
+
+
+                <hr>
+
+                <h2>Add A Coffee</h2>
+                <form class="form2">
+                    <div class="form2">
+                        <label for="newRoast-selection">
+                            <h3><strong>Roast</strong>
+                            </h3>
+                        </label>
+                        <br>
+                        <select id="newRoast-selection" class="form-select" aria-label="Default select example"
+                                style="width: 100%">
+                            <option value="light">Light</option>
+                            <option value="medium">Medium</option>
+                            <option value="dark">Dark</option>
+
+                        </select>
+                        <br>
+                        <!--        Search Bar     -->
+                        <label for="newCoffee-name" class="form-label">
+                            <h3>
+                                <strong>Coffee Name</strong>
+                            </h3>
+                        </label>
+                        <br>
+                        <input class="form-control" id="newCoffee-name" placeholder="Type to search..."
+                               style="width: 100%">
+                        <br>
+                        <button id="newSubmit" type="button" class="btn btn-warning" style="width: 100%">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
