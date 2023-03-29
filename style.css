@@ -277,8 +277,8 @@ header {
     height: 300px;
 }
 .vision {
-    background-color: lightgreen;
-height: 300px;
-    width: 50%;
-float: right;
+border: black solid 2px;
+height: 200px;
+    width: 100%;
+
 }
