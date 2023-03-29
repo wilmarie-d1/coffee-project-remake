@@ -270,3 +270,15 @@ header {
 .container .box:hover .content p {
     transform: translateY(0px);
 }
+
+.mission {
+    background-color: rosybrown;
+    width: 50%;
+    height: 300px;
+}
+.vision {
+    background-color: lightgreen;
+height: 300px;
+    width: 50%;
+float: right;
+}
